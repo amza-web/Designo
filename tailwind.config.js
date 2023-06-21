@@ -6,7 +6,14 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        jost: 'Jost, sans-serif',
+      },
+      colors: {
+        peach: "#e88069"
+      },     
+    },
   },
   plugins: [],
 }
