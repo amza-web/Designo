@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -15,7 +18,87 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+@layer components{
+  
+  .container{
+    max-width: 1111px;
+    @apply mx-auto ;
+  }
+  section.container{
+    @apply px-10;
+  }
+  .tracking-2{
+    letter-spacing: 2px;
+  }
+  .leading-3\.5{
+    line-height: 14px;
+  }
+  .leading-6\.5{
+    line-height: 26px;
+  }
+  .btn{
+    @apply bg-white text-black p-5 px-6 rounded-lg uppercase cursor-pointer ;
+    transition: color 0.7s ease 0s, background-color;
+    letter-spacing: 1px;
+  }
+  .text-15{
+    font-size: 15px;
+    line-height: 15px
+  }
+  .grid-a{
+    @apply flex flex-col gap-x-[30px] gap-y-[25px];
+  }
+  @media (min-width: 1024px){
+    .grid-a{
+      display: grid;
+      grid-template-areas: 
+      "web app"
+      "web graphic";
+    }
+  }
 
+  .grid-web{
+    grid-area: web;
+  }
+  .grid-app{
+    grid-area: app;
+  }
+  .grid-graphic{
+    grid-area: graphic;
+  }
+  .h-834{
+    height: 834px;
+  }
+}
+@layer base{
+  section{
+    @apply my-32;
+  }
+  img{
+    @apply w-auto h-auto;
+  }
+  h1{
+    font-size: 32px;
+    line-height: 36px;
+    @apply lg:text-5xl first-letter:lg:leading-10 mb-4;
+  }
+  
+  h1,h2,h3.h4{
+    @apply  font-medium;
+  }
+  p{
+    @apply font-jost leading-6.5;
+  }
+  .scale-s-2{
+    scale: 2;
+  }
+}
+
+*{
+  box-sizing: border-box;
+}
 body {
-  color: rgb(var(--foreground-rgb));
+  font-family: Jost, sans-serif;
+  color: #333136;
+
 }
