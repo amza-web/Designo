@@ -13,16 +13,16 @@ import instagram from "@/app/assets/shared/desktop/icon-instagram.svg"
 
 const Footer = () => {
   return (
-    <footer className='container bg-[#1d1c1e]'>
-        <div>
+    <footer className='relative z-0 container bg-[#1d1c1e] py-36 text-white'>
+        <div className='text-center flex flex-col items-center uppercase text-sm leading-[15px] tracking-[2px] gap-14 mb-10'>
             <Image src={logo} />
             <ul>
-                <li><Link href="#" >Our company</Link></li>
-                <li><Link href="#" >Locations</Link></li>
-                <li><Link href="#" >Contact</Link></li>
+                <li className='mt-7'><Link href="#" >Our company</Link></li>
+                <li className='mt-7'><Link href="#" >Locations</Link></li>
+                <li className='mt-7'><Link href="#" >Contact</Link></li>
             </ul>
         </div>
-        <div>
+        <div className='text-[#8f8e8e] flex flex-col gap-10 items-center text-center'>
             <div>
                 <p>Designo Central Office<br />
               <span>3886 Wellington Street<br />
@@ -36,7 +36,7 @@ const Footer = () => {
                 </p>
             </div>
             <div>
-                <ul>
+                <ul className='flex gap-4 mt-5'>
                     <li>
                         <Link href="#">
                             <Image src={facebook} />
