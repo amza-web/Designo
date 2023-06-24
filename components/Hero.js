@@ -17,7 +17,7 @@ const Hero = () => {
                 <Image className='pt-32 scale-s-2 lg:absolute lg:-top-8 lg:pt-0 lg:-right-20' src={img1} alt="A mockup design" />
             </picture>
         </div>
-        <Image className='absolute left-[465px] top-0 z-0  ' src={bg} />
+        <Image className='absolute left-[465px] top-0 z-0  ' src={bg} alt='circle-bg'/>
     </div>
   )
 }

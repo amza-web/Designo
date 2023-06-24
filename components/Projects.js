@@ -22,7 +22,7 @@ const Projects = () => {
             
             <div className='absolute uppercase'>
                 <h2 className='text-[28px] leading-9 mb-7 lg:text-[40px] tracking-[1.4px] lg:tracking-[2px]'>Web Design</h2>
-                <Link className='inline-flex justify-center items-center gap-4  tracking-[5px] text-[15px] font-medium' href={"#"}>View Projects <Image height={10} src={arrow} /></Link>
+                <Link className='inline-flex justify-center items-center gap-4  tracking-[5px] text-[15px] font-medium' href={"#"}>View Projects <Image height={10} src={arrow} alt='arrow' /></Link>
             </div>
 
         </div>
@@ -34,7 +34,7 @@ const Projects = () => {
             
             <div className='absolute uppercase'>
                 <h2 className='text-[28px] leading-9 mb-7 lg:text-[40px] tracking-[1.4px] lg:tracking-[2px]'>App Design</h2>
-                <Link className='inline-flex justify-center items-center gap-4  tracking-[5px] text-[15px] font-medium' href={"#"}>View Projects <Image height={10} src={arrow} /></Link>
+                <Link className='inline-flex justify-center items-center gap-4  tracking-[5px] text-[15px] font-medium' href={"#"}>View Projects <Image height={10} src={arrow} alt='arrow' /></Link>
             </div>
 
         </div>
@@ -46,7 +46,7 @@ const Projects = () => {
             
             <div className='absolute uppercase'>
                 <h2 className='text-[28px] leading-9 mb-7 lg:text-[40px] tracking-[1.4px] lg:tracking-[2px]'>Graphic Design</h2>
-                <Link className='inline-flex justify-center items-center gap-4  tracking-[5px] text-[15px] font-medium' href={"#"}>View Projects <Image height={10} src={arrow} /></Link>
+                <Link className='inline-flex justify-center items-center gap-4  tracking-[5px] text-[15px] font-medium' href={"#"}>View Projects <Image height={10} src={arrow} alt='arrow' /></Link>
             </div>
 
         </div>

@@ -13,8 +13,8 @@ const Skills = () => {
     <section className='container flex flex-col relative text-center -mb-24  md:max-w-[25.5rem]'>
         <div className='mb-11'>
             <div className='flex justify-center items-center mb-[43px]'>
-                <Image className='absolute z-0' src={imgBg} />
-                <Image className='z-10 relative' src={img1} />
+                <Image className='absolute z-0' src={imgBg} alt='Passionate'/>
+                <Image className='z-10 relative' src={img1} alt='Passionate'/>
             </div>
             <div>
                 <h3 className='text-xl leading-[26px] tracking-[5px] uppercase font-medium mb-8'>Passionate</h3>
@@ -23,8 +23,8 @@ const Skills = () => {
         </div>
         <div className='mb-11'>
             <div className='flex justify-center items-center mb-[43px]'>
-                <Image className='absolute z-0' src={imgBg} />
-                <Image className='z-10 relative' src={img2} />
+                <Image className='absolute z-0' src={imgBg} alt='Resourceful'/>
+                <Image className='z-10 relative' src={img2} alt='Resourceful'/>
             </div>
             <div>
                 <h3 className='text-xl leading-[26px] tracking-[5px] uppercase font-medium mb-8'>Resourceful</h3>
@@ -33,8 +33,8 @@ const Skills = () => {
         </div>
         <div className='mb-11'>
             <div className='flex justify-center items-center mb-[43px]'>
-                <Image className='absolute z-0' src={imgBg} />
-                <Image className='z-10 relative' src={img3} />
+                <Image className='absolute z-0' src={imgBg} alt='Friendly'/>
+                <Image className='z-10 relative' src={img3} alt='Friendly'/>
             </div>
             <div>
                 <h3 className='text-xl leading-[26px] tracking-[5px] uppercase font-medium mb-8'>Friendly</h3>

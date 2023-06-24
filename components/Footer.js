@@ -15,7 +15,7 @@ const Footer = () => {
   return (
     <footer className='relative z-0 container bg-[#1d1c1e] py-36 text-white'>
         <div className='text-center flex flex-col items-center uppercase text-sm leading-[15px] tracking-[2px] gap-14 mb-10'>
-            <Image src={logo} />
+            <Image src={logo} alt='Logo'/>
             <ul>
                 <li className='mt-7'><Link href="#" >Our company</Link></li>
                 <li className='mt-7'><Link href="#" >Locations</Link></li>
@@ -39,27 +39,27 @@ const Footer = () => {
                 <ul className='flex gap-4 mt-5'>
                     <li>
                         <Link href="#">
-                            <Image src={facebook} />
+                            <Image src={facebook} alt='facebook' />
                         </Link>
                     </li>
                     <li>
                         <Link href="#">
-                            <Image src={youtube} />
+                            <Image src={youtube} alt='youtube' />
                         </Link>
                     </li>
                     <li>
                         <Link href="#">
-                            <Image src={twitter} />
+                            <Image src={twitter} alt='twitter' />
                         </Link>
                     </li>
                     <li>
                         <Link href="#">
-                            <Image src={pinterest} />
+                            <Image src={pinterest} alt='pinterest' />
                         </Link>
                     </li>
                     <li>
                         <Link href="#">
-                            <Image src={instagram} />
+                            <Image src={instagram} alt='instagram' />
                         </Link>
                     </li>
 
