@@ -16,7 +16,7 @@ const Footer = () => {
     <footer className='relative z-0 bg-[#1d1c1e] py-36 text-white'>
         <div className='text-center flex flex-col lg:flex-row lg:justify-between items-center uppercase text-sm leading-[15px] tracking-[2px] gap-14 mb-10 lg:max-w-[1111px] lg:mx-auto'>
             <Image width={202}  src={logo} alt='Logo'/>
-            <ul className='flex gap-4'>
+            <ul className='lg:flex gap-4'>
                 <li className='mt-7 lg:mt-0'><Link href="#" >Our company</Link></li>
                 <li className='mt-7 lg:mt-0'><Link href="#" >Locations</Link></li>
                 <li className='mt-7 lg:mt-0'><Link href="#" >Contact</Link></li>
