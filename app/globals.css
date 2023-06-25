@@ -24,7 +24,7 @@
     @apply mx-auto max-w-[1111px];
   }
   section.container{
-    @apply px-10;
+    @apply px-8 lg:px-0;
   }
   .tracking-2{
     letter-spacing: 2px;
@@ -87,14 +87,6 @@
   }
   p{
     @apply font-jost leading-6.5;
-  }
-  .scale-s-2{
-    scale: 2;
-  }
-  @media screen and (min-width: 1025px){
-    .scale-s-2{
-      scale: initial;
-    }
   }
 }
 
