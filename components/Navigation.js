@@ -20,13 +20,13 @@ const Navigation = () => {
             <a className={isOpen ? "z-30 fixed" : "" } href="/"><Image className='max-h-6 lg:w-48' src={img} alt="Logo  " /></a>
         </div> 
         <button className={isOpen ? "z-30 fixed right-6 top-9 lg:hidden": "z-20 lg:hidden top-9" } onClick={toggleMenu}>
-            {isOpen ? 
             
-            <Image className='close-btn' src={close} alt='Close Button' />
-            :
-            <Image className='menu-btn' src={harmburger} alt='Menu Button' />
             
-            }
+            <Image className={isOpen ? "" : "hidden" } src={close} alt='Close Button' />
+            
+            <Image className={isOpen ? "hidden" : "" } src={harmburger} alt='Menu Button' />
+            
+            
         </button>
         <nav className=' text-sm hidden lg:block'>
             <ul className='flex gap-10 uppercase leading-3.5 tracking-2'>
