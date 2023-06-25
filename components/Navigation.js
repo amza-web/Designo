@@ -37,10 +37,10 @@ const Navigation = () => {
         </nav>
     </div>
     <nav className='menu-mob lg:hidden h-screen fixed top-0 w-full bg-white z-20 p-10 flex items-center -translate-x-full transition-transform duration-300'>
-        <ul className='flex flex-col gap-5 text-lg'>
-            <li><a href="#">Our Company</a></li>
-            <li><a href="#">Locations</a></li>
-            <li><a href="#">Contact</a></li>    
+        <ul className='flex flex-col gap-5 text-lg w-full'>
+            <li><a className='inline-block w-full' href="#">Our Company</a></li>
+            <li><a className='inline-block w-full' href="#">Locations</a></li>
+            <li><a className='inline-block w-full' href="#">Contact</a></li>    
         </ul>
     </nav>
     </>
