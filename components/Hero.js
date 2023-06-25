@@ -12,9 +12,13 @@ const Hero = () => {
             <p className='lg:max-w-[445px]'>With over 10 years in the industry, we are experienced in creating fully responsive websites, app design, and engaging brand experiences. Find out more about our services.</p>
             <button className='mt-10 btn text-15  font-medium'>Learn more</button>
         </div>
-        <div className='w-full z-0'>
+        <div className='w-full z-0 lg:relative'>
             <picture className=" w-full flex justify-center">
-                <Image className='pt-32 lg:absolute lg:-top-8 lg:pt-0 lg:-right-20' src={img1} alt="A mockup design" />
+                <Image 
+                className='pt-32 scale-[2] lg:absolute lg:top-12 lg:pt-0 lg:-right-4' src={img1} 
+                alt="A mockup design" 
+                sizes="(max-width: 768px) 90vw, (max-width: 1200px) 60vw, 40vw"
+                />
             </picture>
         </div>
         <Image className='absolute left-[465px] top-0 z-0  ' src={bg} alt='circle-bg'/>

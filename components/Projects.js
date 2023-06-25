@@ -13,7 +13,7 @@ import graphic from "@/app/assets/home/mobile/image-graphic-design.jpg"
 
 const Projects = () => {
   return (
-    <section className='container grid-a text-white text-center lg:px-0 mx-auto md:max-w-[25.5rem]'>
+    <section className='container grid-a text-white text-center lg:px-0 mx-auto md:max-w-[25.5rem] lg:max-w-[1111px]'>
         <div className='flex justify-center items-center grid-web relative  group rounded-[15px] overflow-hidden'>
             <div className='bg-black absolute w-full h-full bg-opacity-50 transition-colors duration-500 group-hover:bg-peach group-hover:bg-opacity-50'></div>
             
