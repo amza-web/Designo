@@ -17,7 +17,6 @@ const Hero = () => {
                 <Image 
                 className='pt-32 scale-[2] lg:absolute lg:top-12 lg:pt-0 lg:-right-4' src={img1} 
                 alt="A mockup design" 
-                sizes="(max-width: 768px) 90vw, (max-width: 1200px) 60vw, 40vw"
                 />
             </picture>
         </div>
