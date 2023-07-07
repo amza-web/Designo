@@ -14,7 +14,7 @@ import graphic from "@/app/assets/home/mobile/image-graphic-design.jpg"
 const Projects = () => {
   return (
     <section className='container grid-a text-white text-center lg:px-0 mx-auto md:max-w-[25.5rem] lg:max-w-[1111px]'>
-        <div className='flex justify-center items-center grid-web relative  group rounded-[15px] overflow-hidden'>
+        <Link href="/web-design" className='flex justify-center items-center grid-web relative  group rounded-[15px] overflow-hidden'>
             <div className='bg-black absolute w-full h-full bg-opacity-50 transition-colors duration-500 group-hover:bg-peach group-hover:bg-opacity-50'></div>
             
             <Image className='w-full hidden lg:block' src={lgWeb} alt='Web'/> 
@@ -22,11 +22,11 @@ const Projects = () => {
             
             <div className='absolute uppercase'>
                 <h2 className='text-[28px] leading-9 mb-7 lg:text-[40px] tracking-[1.4px] lg:tracking-[2px]'>Web Design</h2>
-                <Link className='inline-flex justify-center items-center gap-4  tracking-[5px] text-[15px] font-medium' href={"#"}>View Projects <Image height={10} src={arrow} alt='arrow' /></Link>
+                <Link className='inline-flex justify-center items-center gap-4  tracking-[5px] text-[15px] font-medium' href="/web-design">View Projects <Image height={10} src={arrow} alt='arrow' /></Link>
             </div>
 
-        </div>
-        <div className='flex justify-center items-center grid-app relative group rounded-[15px] overflow-hidden'>
+        </Link>
+        <Link href="/web-design" className='flex justify-center items-center grid-app relative group rounded-[15px] overflow-hidden'>
             <div className='bg-black absolute w-full h-full bg-opacity-50 transition-colors duration-500 group-hover:bg-peach group-hover:bg-opacity-50'></div>
             
             <Image className='w-full hidden lg:block' src={lgApp} alt='App' />
@@ -34,11 +34,11 @@ const Projects = () => {
             
             <div className='absolute uppercase'>
                 <h2 className='text-[28px] leading-9 mb-7 lg:text-[40px] tracking-[1.4px] lg:tracking-[2px]'>App Design</h2>
-                <Link className='inline-flex justify-center items-center gap-4  tracking-[5px] text-[15px] font-medium' href={"#"}>View Projects <Image height={10} src={arrow} alt='arrow' /></Link>
+                <Link className='inline-flex justify-center items-center gap-4  tracking-[5px] text-[15px] font-medium' href="/web-design">View Projects <Image height={10} src={arrow} alt='arrow' /></Link>
             </div>
 
-        </div>
-        <div className='flex justify-center items-center grid-graphic relative group rounded-[15px] overflow-hidden'>
+        </Link>
+        <Link href="/web-design" className='flex justify-center items-center grid-graphic relative group rounded-[15px] overflow-hidden'>
             <div className='bg-black absolute w-full h-full bg-opacity-50 transition-colors duration-500 group-hover:bg-peach group-hover:bg-opacity-50'></div>
             
             <Image className='w-full hidden lg:block'  src={lgGraphic} alt='Graphic' />
@@ -46,10 +46,10 @@ const Projects = () => {
             
             <div className='absolute uppercase'>
                 <h2 className='text-[28px] leading-9 mb-7 lg:text-[40px] tracking-[1.4px] lg:tracking-[2px]'>Graphic Design</h2>
-                <Link className='inline-flex justify-center items-center gap-4  tracking-[5px] text-[15px] font-medium' href={"#"}>View Projects <Image height={10} src={arrow} alt='arrow' /></Link>
+                <Link className='inline-flex justify-center items-center gap-4  tracking-[5px] text-[15px] font-medium' href="/web-design">View Projects <Image height={10} src={arrow} alt='arrow' /></Link>
             </div>
 
-        </div>
+        </Link>
 
     </section>
   )
