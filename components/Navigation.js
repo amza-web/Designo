@@ -2,8 +2,10 @@
 import React, { useState } from 'react'
 import img from '@/app/assets/shared/desktop/logo-dark.png'
 import Image from 'next/image'
+import Link from 'next/link'
 
 import harmburger from "@/app/assets/shared/mobile/icon-hamburger.svg"
+
 import close from "@/app/assets/shared/mobile/icon-close.svg"
 
 const Navigation = () => {  
@@ -17,7 +19,7 @@ const Navigation = () => {
     <>
     <div className='container lg:py-16 flex justify-between py-9 items-center px-6 lg:px-0'>
         <div>
-            <a className={isOpen ? "z-30 fixed" : "" } href="/"><Image className='max-h-6 lg:w-48' src={img} alt="Logo  " /></a>
+            <Link className={isOpen ? "z-30 fixed" : "" } href="/"><Image className='max-h-6 lg:w-48' src={img} alt="Logo  " /></Link>
         </div> 
         <button className={isOpen ? "z-30 fixed right-6 top-9 lg:hidden": "z-20 lg:hidden top-9" } onClick={toggleMenu}>
             

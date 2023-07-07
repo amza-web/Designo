@@ -15,7 +15,7 @@ const Hero = () => {
         <div className='w-full z-0 lg:relative'>
             <picture className=" w-full flex justify-center">
                 <Image 
-                className='pt-32 scale-[2] lg:absolute lg:top-12 lg:pt-0 lg:-right-4' src={img1} 
+                className='pt-32 scale-[2] lg:absolute lg:top-12 lg:pt-0 lg:-right-4 w-[312px]' src={img1} 
                 alt="A mockup design" 
                 />
             </picture>
