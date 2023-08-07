@@ -3,12 +3,12 @@ import Image from 'next/image'
 
 const ProjectItem = ({project}) => {
   return (
-    <li className='rounded-[15px] bg-[#fdf3f0] mx-auto'>
-        <div className=''>
-            <Image className='w-full h-full' src={project.img} />
-        </div>
+    <li className='rounded-2xl bg-[#fdf3f0] hover:bg-peach mx-auto overflow-hidden group transition-colors duration-300'>
         <div>
-            <h4>{project.title}</h4>
+            <Image className='w-full h-80' src={project.img} />
+        </div>
+        <div className='p-8 group-hover:text-white'>
+            <h4 className='text-peach group-hover:text-white text-xl tracking-[5px] uppercase font-medium pb-4'>{project.title}</h4>
             <p>{project.desc}</p>
         </div>
     </li>
