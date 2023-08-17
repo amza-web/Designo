@@ -13,17 +13,17 @@ import instagram from "@/app/assets/shared/desktop/icon-instagram.svg"
 
 const Footer = () => {
   return (
-    <footer className='relative z-0 bg-[#1d1c1e] py-36 text-white'>
-        <div className='text-center flex flex-col lg:flex-row lg:justify-between items-center uppercase text-sm leading-[15px] tracking-[2px] gap-14 mb-10 lg:max-w-[1111px] lg:mx-auto'>
+    <footer className='relative z-0 bg-[#1d1c1e] py-36 text-white md:px-16 md:pb-16 lg:py-36'>
+        <div className='text-center flex flex-col md:flex-row md:justify-between items-center uppercase text-sm leading-[15px] tracking-[2px] gap-14 mb-10 md:max-w-[1111px] md:mx-auto'>
             <Image width={202}  src={logo} alt='Logo'/>
-            <ul className='lg:flex gap-4'>
-                <li className='mt-7 lg:mt-0'><Link href="#" >Our company</Link></li>
-                <li className='mt-7 lg:mt-0'><Link href="#" >Locations</Link></li>
-                <li className='mt-7 lg:mt-0'><Link href="#" >Contact</Link></li>
+            <ul className='md:flex gap-4'>
+                <li className='mt-7 md:mt-0'><Link href="about" >Our company</Link></li>
+                <li className='mt-7 md:mt-0'><Link href="#" >Locations</Link></li>
+                <li className='mt-7 md:mt-0'><Link href="#" >Contact</Link></li>
             </ul>
         </div>
-        <hr className='hidden lg:block lg:max-w-[1111px] mx-auto mb-6' />
-        <div className='text-[#8f8e8e] flex flex-col lg:flex-row gap-10 items-center text-center lg:text-left lg:justify-between lg:items-start lg:max-w-[1111px] lg:mx-auto'>
+        <hr className='hidden md:block md:max-w-[1111px] mx-auto mb-6' />
+        <div className='text-[#8f8e8e] flex flex-col md:flex-row gap-10 items-center text-center md:text-left md:justify-between md:items-start md:max-w-[1111px] md:mx-auto'>
             <div>
                 <p>Designo Central Office<br />
               <span>3886 Wellington Street<br />
@@ -37,7 +37,7 @@ const Footer = () => {
                 </p>
             </div>
             <div>
-                <ul className='flex gap-4 mt-5 lg:mt-0'>
+                <ul className='flex gap-4 mt-5 md:mt-0'>
                     <li>
                         <Link href="#">
                             <Image src={facebook} alt='facebook' />
