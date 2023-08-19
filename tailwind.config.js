@@ -11,8 +11,12 @@ module.exports = {
         jost: 'Jost, sans-serif',
       },
       colors: {
-        peach: "#e88069"
-      },     
+        peach: "#e88069",
+        peachlight: "#fdf3f0"
+      },  
+      flexGrow: {
+        2: '2'
+      }   
     },
   },
   plugins: [],
