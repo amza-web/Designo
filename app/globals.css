@@ -24,7 +24,7 @@
     @apply mx-auto max-w-[1111px];
   }
   section.container{
-    @apply px-8 lg:px-0;
+    @apply px-8 md:px-0 lg:px-0;
   }
   .tracking-2{
     letter-spacing: 2px;
