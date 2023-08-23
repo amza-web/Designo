@@ -6,12 +6,14 @@ import Skills from '@/components/Skills'
 
 export default function Home() {
   return (
-    <main>
+    <>  
+    <main className='md:mx-16'>
       <Header />
       <Hero />
       <Projects />
       <Skills />
-      <Footer />
     </main>
+    <Footer />
+    </>
   )
 }

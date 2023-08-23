@@ -18,8 +18,8 @@ const Footer = () => {
             <Image width={202}  src={logo} alt='Logo'/>
             <ul className='md:flex gap-4'>
                 <li className='mt-7 md:mt-0'><Link href="about" >Our company</Link></li>
-                <li className='mt-7 md:mt-0'><Link href="#" >Locations</Link></li>
-                <li className='mt-7 md:mt-0'><Link href="#" >Contact</Link></li>
+                <li className='mt-7 md:mt-0'><Link href="/locations" >Locations</Link></li>
+                <li className='mt-7 md:mt-0'><Link href="/contact" >Contact</Link></li>
             </ul>
         </div>
         <hr className='hidden md:block md:max-w-[1111px] mx-auto mb-6' />

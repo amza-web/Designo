@@ -8,7 +8,7 @@ import bg from "@/app/assets/shared/desktop/bg-pattern-small-circle.svg"
 const LocationItem = ({img, txt}) => {
     const router = useRouter() 
   return (
-    <div className='flex flex-col items-center mb-12'>
+    <div className='flex flex-col items-center mb-12 lg:basis-1/3'>
         <div className='relative mb-10'>
             <Image className='absolute' src={bg} alt='bg'/>
             <Image src={img} alt='bg'/>
