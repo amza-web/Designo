@@ -68,10 +68,10 @@
 }
 @layer base{
   .contact-form input, .contact-form textarea{
-    @apply border-0 bg-transparent block leading-[26px] outline-none text-white font-medium transition-all pl-4 border-b-[1px] border-solid border-white w-full ;
+    @apply border-0 bg-transparent block leading-[26px] outline-none text-white font-medium transition-all pl-4 border-b-[1px] border-solid border-white w-full focus-visible:border-b-[3px] ;
   }
-  .contact-form input::placeholder, .contact-form textarea::placeholder{
-    @apply outline-none ;
+  .contact-form input, .contact-form textarea{
+    @apply outline-none placeholder:text-white placeholder:opacity-50 placeholder:transition-all hover:placeholder:opacity-30;
   }
   button{
     @apply outline-none focus:outline-none;
