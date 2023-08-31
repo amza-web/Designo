@@ -32,8 +32,17 @@ const ContactForm = () => {
     }
     return (
         <>
-            <form className='contact-form mt-10 ' ref={formRef} action="POST">
-                <div className='flex flex-col gap-12'>
+            <form className='contact-form mt-10 lg:mt-0 lg:w-full lg:basis-1/2' ref={formRef} action="POST">
+
+                {submitSuccess ?
+                    <div className='h-full flex justify-center items-center'>
+                        <div>
+                            <p>Your Message has been sent successfully</p>
+                        </div>
+                    </div>
+                    :
+                <>
+                <div className='flex flex-col gap-12 lg:gap-10'>
                     <div className='relative'>
                         <input type="text" name="name" id='name' ref={nameRef} placeholder='Name' required/>
                         <span className='text-white hidden absolute top-0 right-0'>Can't be empty</span>
@@ -52,9 +61,12 @@ const ContactForm = () => {
                     </div>
                 </div>
 
-                <div className='flex justify-end'>
+                <div className='flex justify-end mr-1'>
                     <button onClick={submitHandler} className='py-4 px-12 font-medium mt-7 uppercase bg-white rounded-lg tracking-[1px] hover:bg-[#ffad9b] hover:text-white transition-all duration-300 ' type="submit">Submit</button>
                 </div>
+                </>
+                    
+                }
             </form>
         </>
     )
